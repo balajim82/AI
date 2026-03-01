@@ -9,3 +9,4 @@ else:
 def add(x,y):
     return x+y;
 print(add(10,30));
+print(add(10,40));
