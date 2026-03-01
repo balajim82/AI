@@ -5,8 +5,7 @@ a=5;
 if a>10:
    print("This is true");
 else:
-   print("This is false");
+   print("This is falseeeee");
 def add(x,y):
     return x+y;
 print(add(10,30));
-print(add(10,40));
