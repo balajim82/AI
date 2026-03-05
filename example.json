@@ -1,0 +1,28 @@
+[
+    {
+        "employee": {
+            "salary": 50000,
+            "name": "balaji",
+            "age": 30,
+            "department": "IT",
+            "skills": [
+                "python",
+                "java",
+                "sql"
+            ]
+        }
+    },
+    {
+        "employee": {
+            "salary": 60000,
+            "name": "suresh",
+            "age": 28,
+            "department": "HR",
+            "skills": [
+                "communication",
+                "recruitment",
+                "training"
+            ]
+        }
+    }
+]
