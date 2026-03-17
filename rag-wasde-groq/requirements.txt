@@ -1,0 +1,7 @@
+lancedb
+pymupdf
+sentence-transformers
+groq
+python-dotenv
+pandas
+requests
