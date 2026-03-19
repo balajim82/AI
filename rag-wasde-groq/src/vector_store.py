@@ -28,7 +28,7 @@ def create_table(db, embedding_dim: int):
             ]
         )
 
-        return db.create_table("wasde", schema=schema, mode="overwrite")
+        return db.create_table("WASDE_REPROT_TABLE", schema=schema, mode="overwrite")
     except Exception as e:
         print("[vector_store] failed to create table:", e)
         raise

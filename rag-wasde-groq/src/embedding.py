@@ -1,8 +1,14 @@
 from sentence_transformers import SentenceTransformer
+from transformers import logging
+from huggingface_hub.utils import logging as hf_logging
+import warnings
 
 
 def _load_model():
     try:
+        logging.set_verbosity_error()
+        hf_logging.set_verbosity_error()
+        warnings.filterwarnings("ignore", message=".*position_ids.*")
         return SentenceTransformer("all-MiniLM-L6-v2")
     except Exception as e:
         # Fail fast with a clear message; calling code can decide how to handle it.

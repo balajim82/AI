@@ -5,3 +5,7 @@ groq
 python-dotenv
 pandas
 requests
+mysql-connector-python
+streamlit
+sqlalchemy
+pymysql
