@@ -5,44 +5,62 @@ from src.database.models import ProductDetails
 class ProductDetailsRepository:
 
     def create(self, productDetails):
-        session = SessionLocal()
-        session.add(productDetails)
-        session.commit()
-        session.close()
+        try:
+            session = SessionLocal()
+            session.add(productDetails)
+            session.commit()
+            session.close()
+        except Exception as e:
+            print("In ProductDetailsRepository class - create Method failed:", e)
 
     def get_all(self):
-        session = SessionLocal()
-        data = session.query(ProductDetails).all()
-        session.close()
-        return data
+        try:
+            session = SessionLocal()
+            data = session.query(ProductDetails).all()
+            session.close()
+            return data
+        except Exception as e:
+            print("In ProductDetailsRepository class - get_all Method failed:", e)
 
     def search(self, prdSearch):
-        session = SessionLocal()
-        data = (
-            session.query(ProductDetails)
-            .filter(
-                (ProductDetails.PRD_NAME.like(f"%{prdSearch}%"))
-                | (ProductDetails.PRD_CATEGORY.like(f"%{prdSearch}%"))
+        try:
+            session = SessionLocal()
+            data = (
+                session.query(ProductDetails)
+                .filter(
+                    (ProductDetails.PRD_NAME.like(f"%{prdSearch}%"))
+                    | (ProductDetails.PRD_CATEGORY.like(f"%{prdSearch}%"))
+                )
+                .all()
             )
-            .all()
-        )
-        session.close()
-        return data
+            session.close()
+            return data
+        except Exception as e:
+            print("In ProductDetailsRepository class - search Method failed:", e)
 
     def get_by_id(self, prdId):
-        session = SessionLocal()
-        productDetails = session.get(ProductDetails, prdId)
-        session.close()
-        return productDetails
+        try:
+            session = SessionLocal()
+            productDetails = session.get(ProductDetails, prdId)
+            session.close()
+            return productDetails
+        except Exception as e:
+            print("In ProductDetailsRepository class - get_by_id Method failed:", e)
 
     def update(self, productDetails):
-        session = SessionLocal()
-        session.merge(productDetails)
-        session.commit()
-        session.close()
+        try:
+            session = SessionLocal()
+            session.merge(productDetails)
+            session.commit()
+            session.close()
+        except Exception as e:
+            print("In ProductDetailsRepository class - update Method failed:", e)
 
     def delete(self, productDetails):
-        session = SessionLocal()
-        session.delete(productDetails)
-        session.commit()
-        session.close()
+        try:
+            session = SessionLocal()
+            session.delete(productDetails)
+            session.commit()
+            session.close()
+        except Exception as e:
+            print("In ProductDetailsRepository class - delete Method failed:", e)

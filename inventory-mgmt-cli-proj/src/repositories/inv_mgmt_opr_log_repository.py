@@ -5,16 +5,28 @@ from datetime import datetime
 
 class InventoryMgmtOprLogRepository:
     def log_action(self, action_name):
-        session = SessionLocal()
-        log = InvenotryMgmtOprLog(
-            IMOL_ACTION=action_name, IMOL_TIMESTAMP=datetime.now()
-        )
-        session.add(log)
-        session.commit()
-        session.close()
+        try:
+            session = SessionLocal()
+            log = InvenotryMgmtOprLog(
+                IMOL_ACTION=action_name, IMOL_TIMESTAMP=datetime.now()
+            )
+            session.add(log)
+            session.commit()
+            session.close()
+        except Exception as e:
+            print(
+                "In InventoryMgmtOprLogRepository class - log_action Method failed:",
+                e,
+            )
 
     def get_all_Log(self):
-        session = SessionLocal()
-        data = session.query(InvenotryMgmtOprLog).all()
-        session.close()
-        return data
+        try:
+            session = SessionLocal()
+            data = session.query(InvenotryMgmtOprLog).all()
+            session.close()
+            return data
+        except Exception as e:
+            print(
+                "In InventoryMgmtOprLogRepository class - get_all_Log Method failed:",
+                e,
+            )
