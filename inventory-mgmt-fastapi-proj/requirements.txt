@@ -1,0 +1,8 @@
+sqlalchemy
+pymysql
+pandas
+cryptography
+fastapi
+uvicorn
+pydantic
+aiomysql
