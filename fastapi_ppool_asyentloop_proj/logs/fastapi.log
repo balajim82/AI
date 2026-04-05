@@ -1,0 +1,160 @@
+2026-04-05 17:47:41,020 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 0
+2026-04-05 17:47:41,020 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 0
+2026-04-05 17:47:41,020 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,020 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,021 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,021 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,030 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 1
+2026-04-05 17:47:41,030 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 1
+2026-04-05 17:47:41,041 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,041 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,042 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,042 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,050 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 5
+2026-04-05 17:47:41,050 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 5
+2026-04-05 17:47:41,052 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,052 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,052 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,052 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,061 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 6
+2026-04-05 17:47:41,061 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 6
+2026-04-05 17:47:41,062 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,062 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,062 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,062 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,071 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 7
+2026-04-05 17:47:41,071 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 7
+2026-04-05 17:47:41,071 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,071 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,072 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,072 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,073 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 8
+2026-04-05 17:47:41,073 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 8
+2026-04-05 17:47:41,074 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,074 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,074 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,074 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,075 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 9
+2026-04-05 17:47:41,075 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 9
+2026-04-05 17:47:41,076 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,076 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,076 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,076 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,077 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 2
+2026-04-05 17:47:41,077 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 2
+2026-04-05 17:47:41,078 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,078 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,079 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,079 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,080 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 3
+2026-04-05 17:47:41,080 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 3
+2026-04-05 17:47:41,080 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,080 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,081 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,081 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,082 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 4
+2026-04-05 17:47:41,082 | INFO | PID:21772 | src.api.routes | Received request to process method in router: 4
+2026-04-05 17:47:41,083 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,083 | INFO | PID:21772 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:47:41,083 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:41,083 | INFO | PID:21772 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:47:42,046 | INFO | PID:21816 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 0
+2026-04-05 17:47:42,068 | INFO | PID:22552 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 1
+2026-04-05 17:47:42,096 | INFO | PID:23700 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 5
+2026-04-05 17:47:42,099 | INFO | PID:11760 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 6
+2026-04-05 17:47:44,859 | INFO | PID:21816 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 0
+2026-04-05 17:47:44,860 | INFO | PID:21816 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 7
+2026-04-05 17:47:45,513 | INFO | PID:22552 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 1
+2026-04-05 17:47:45,513 | INFO | PID:22552 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 8
+2026-04-05 17:47:45,541 | INFO | PID:23700 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 5
+2026-04-05 17:47:45,542 | INFO | PID:23700 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 9
+2026-04-05 17:47:45,590 | INFO | PID:11760 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 6
+2026-04-05 17:47:45,590 | INFO | PID:11760 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 2
+2026-04-05 17:47:47,535 | INFO | PID:21816 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 7
+2026-04-05 17:47:47,537 | INFO | PID:21816 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 3
+2026-04-05 17:47:48,655 | INFO | PID:22552 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 8
+2026-04-05 17:47:48,656 | INFO | PID:22552 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 4
+2026-04-05 17:47:48,659 | INFO | PID:23700 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 9
+2026-04-05 17:47:48,753 | INFO | PID:11760 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 2
+2026-04-05 17:47:50,246 | INFO | PID:21816 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 3
+2026-04-05 17:47:51,377 | INFO | PID:22552 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 4
+2026-04-05 17:48:56,354 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 0
+2026-04-05 17:48:56,354 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 0
+2026-04-05 17:48:56,355 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,355 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,355 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,355 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,364 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 1
+2026-04-05 17:48:56,364 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 1
+2026-04-05 17:48:56,365 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,365 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,366 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,366 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,375 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 3
+2026-04-05 17:48:56,375 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 3
+2026-04-05 17:48:56,376 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,376 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,377 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,377 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,384 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 9
+2026-04-05 17:48:56,384 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 9
+2026-04-05 17:48:56,384 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,384 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,385 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,385 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,393 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 5
+2026-04-05 17:48:56,393 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 5
+2026-04-05 17:48:56,394 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,394 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,394 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,394 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,395 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 2
+2026-04-05 17:48:56,395 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 2
+2026-04-05 17:48:56,396 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,396 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,396 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,396 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,397 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 4
+2026-04-05 17:48:56,397 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 4
+2026-04-05 17:48:56,398 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,398 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,399 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,399 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,400 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 8
+2026-04-05 17:48:56,400 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 8
+2026-04-05 17:48:56,401 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,401 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,401 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,401 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,402 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 7
+2026-04-05 17:48:56,402 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 7
+2026-04-05 17:48:56,402 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,402 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,403 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,403 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,404 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 6
+2026-04-05 17:48:56,404 | INFO | PID:16584 | src.api.routes | Received request to process method in router: 6
+2026-04-05 17:48:56,404 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,404 | INFO | PID:16584 | src.services.agent_service | Start AgentService invoke Method
+2026-04-05 17:48:56,405 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:56,405 | INFO | PID:16584 | src.workers.process_worker | Started ProcessWorker executemethod
+2026-04-05 17:48:57,328 | INFO | PID:27056 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 0
+2026-04-05 17:48:57,351 | INFO | PID:24156 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 1
+2026-04-05 17:48:57,353 | INFO | PID:9196 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 3
+2026-04-05 17:48:57,373 | INFO | PID:10620 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 9
+2026-04-05 17:49:00,177 | INFO | PID:27056 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 0
+2026-04-05 17:49:00,179 | INFO | PID:27056 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 5
+2026-04-05 17:49:00,790 | INFO | PID:10620 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 9
+2026-04-05 17:49:00,790 | INFO | PID:10620 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 2
+2026-04-05 17:49:00,838 | INFO | PID:9196 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 3
+2026-04-05 17:49:00,838 | INFO | PID:9196 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 4
+2026-04-05 17:49:00,855 | INFO | PID:24156 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 1
+2026-04-05 17:49:00,856 | INFO | PID:24156 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 8
+2026-04-05 17:49:02,973 | INFO | PID:27056 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 5
+2026-04-05 17:49:02,974 | INFO | PID:27056 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 7
+2026-04-05 17:49:03,964 | INFO | PID:10620 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 2
+2026-04-05 17:49:03,965 | INFO | PID:10620 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 6
+2026-04-05 17:49:04,001 | INFO | PID:9196 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 4
+2026-04-05 17:49:04,037 | INFO | PID:24156 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 8
+2026-04-05 17:49:05,668 | INFO | PID:27056 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 7
+2026-04-05 17:49:06,726 | INFO | PID:10620 | src.workers.process_worker | Started ProcessWorker processing in heavy_task method for 6
