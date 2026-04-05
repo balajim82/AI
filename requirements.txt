@@ -1,7 +1,5 @@
 pydantic
 fastapi
 asyncio
-pydantic[email]
-pydantic-settings
-python-multipart
-requests
+
+
