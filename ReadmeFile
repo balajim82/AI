@@ -1,1 +1,20 @@
-This is AI Repository. In This Repo contains All AI Stuff. Like  Python, GenAI, AI Agents, Agentic AI, AI Architecture..
+"""
+ This project (POC) for understanding of the lark parser Usage.
+ 
+What is Lark parser?
+    Lark is a powerful Python library used to parse structured text based on a formal grammar. In simple terms:
+    It helps you convert text (like code, expressions, configs) into a structured format (tree) that your program can understand.
+    It supports:
+        Context-Free Grammars
+        Parsing algorithms like Earley and LALR(1)
+        Automatic parse tree generation
+        Easy transformation into Python objects
+Why is Lark useful?
+    You use Lark when you need to:
+    Build custom languages (DSLs)
+    Parse user input (math, filters, queries)
+    Read config files
+    Create compilers/interpreters
+    Build AI agents that understand structured prompts
+
+"""
