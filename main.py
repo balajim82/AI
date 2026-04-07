@@ -1,3 +1,5 @@
+from unittest import result
+
 from fastapi import FastAPI
 from src.service import QueryService
 from src.models import Query
@@ -17,7 +19,11 @@ service = QueryService()
 #     return service.parse(data.query_input)
 
 def parse_query(data: str):
-    return service.parse(data)
+    result = service.parse(data)
+    print(f"Parse tree: {result}")
+    json_string = result.model_dump_json(indent=2)  # JSON string
+    print(json_string)
+    return json_string
 
 
 # To start server you use uvicorn.run method
@@ -25,5 +31,5 @@ def parse_query(data: str):
 # then without stop server you can see latest changes.
 
 if __name__ == "__main__":
-    parse_query('price > 100 AND name = "Laptop" OR rating >= 4.5 AND cost=10*5 AND rate between 1 and 10 and name like ')
+    parse_query('price > 100 AND name = "Laptop" OR rating >= 4.5 AND cost=10*5 ')
     # uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
