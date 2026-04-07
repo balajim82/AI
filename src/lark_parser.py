@@ -1,6 +1,5 @@
 from lark import Lark
 
-
 grammar = """
 start: or_expr
 
@@ -10,11 +9,25 @@ start: or_expr
 ?and_expr: condition
          | and_expr "AND" condition -> and_op
 
-condition: NAME OP VALUE
+condition: NAME OP expr
+
+# Expression handling
+?expr: term
+     | expr "+" term   -> add
+     | expr "-" term   -> sub
+
+?term: factor
+     | term "*" factor -> mul
+     | term "/" factor -> div
+
+?factor: NUMBER        -> number
+       | ESCAPED_STRING -> string
+       | SINGLE_STRING  -> string
+       | NAME           -> var
+       | "(" expr ")"
 
 OP: ">" | "<" | ">=" | "<=" | "="
 NAME: /[a-zA-Z_]+/
-VALUE: NUMBER | ESCAPED_STRING | SINGLE_STRING
 SINGLE_STRING: /'[^']*'/
 
 %import common.NUMBER
