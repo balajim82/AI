@@ -215,3 +215,29 @@ path = "D:/Ai-Programs/GIT_CODE_PYTHON/python_pandas_numpy_concepts/import_inv/p
 
 pd_read_csv = pd.read_csv(path, index_col=0)
 print(pd_read_csv.head())
+
+path_excel = "D:/Ai-Programs/GIT_CODE_PYTHON/python_pandas_numpy_concepts/import_inv/Home-Painting.xlsx"
+# Read Excel
+df = pd.read_excel(path_excel,sheet_name='Sheet1')
+print(df.head())
+# Multiple sheets
+df_dict = pd.read_excel(path_excel, sheet_name=None)  # All sheets
+print(df_dict.keys())  # Print sheet names
+print(df_dict['Sheet1'].head())  # Access specific sheet
+
+
+
+# Read JSON
+# Create sample JSON
+ 
+path_json = "D:/Ai-Programs/GIT_CODE_PYTHON/python_pandas_numpy_concepts/import_inv/sample_data_json.json"
+
+df_json = pd.read_json(path_json)
+print(f"\nFrom JSON:\n{df_json}")
+
+# Along with above reading techniques from HTML, DataBase or API. 
+# For getting data from any source, we can manipulate data. Like
+#  1. Data Cleaning (Handling missing values, duplicates, data types)
+#  2. Data Transformation (Sorting, filtering, grouping)
+#  3. Data Analysis (Descriptive statistics, correlation, visualization)
+  
